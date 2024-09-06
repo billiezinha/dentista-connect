@@ -1,0 +1,98 @@
+.container {
+    max-width: 360px;
+    margin: auto;
+    padding: 20px;
+    background-color: #F9FAFB;
+    border-radius: 8px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logoImage {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 0;
+    color: #2C3E50;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 14px;
+    color: #7F8C8D;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup label {
+    font-size: 14px;
+    color: #34495E;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+    background-color: #E0E0E0;
+    color: #2C3E50;
+    box-sizing: border-box;
+}
+
+.input::placeholder {
+    color: #7F8C8D;
+}
+
+.input[type="date"] {
+    padding-right: 10px;
+}
+
+select.input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #E0E0E0;
+    color: #2C3E50;
+}
+
+select.input option {
+    background-color: #FFFFFF;
+    color: #2C3E50;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #34495E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #2C3E50;
+}
+
+.body{
+    background-color: white;
+    margin: 0;
+}

@@ -1,0 +1,45 @@
+.proceduresContainer {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .procedureCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7e99a9;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .leftSection {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .mainText {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .subText {
+    font-size: 0.875rem;
+  }
+  
+  .rightSection {
+    flex-direction: column;
+    border-left: 2px solid #ffffff;
+    padding-left: 2.3rem;
+    display: flex;
+  }
+  
+  .dateText span {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }

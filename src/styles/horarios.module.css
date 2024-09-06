@@ -1,0 +1,52 @@
+.hrdisponivel {
+    margin-top: 10px;
+    font-size: 30px;
+    background-color: white;
+}
+.text{
+    margin-left: 231px;
+}
+.separar{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.calendar {
+    color: #0b2e40;
+    max-width: 3500px;
+}
+
+.calendar h1 {
+    color: #0b2e40;
+    font-size: 30px;
+}
+
+.horarios {
+    max-width: 500px;
+    font-size: 20px;
+}
+
+.horarios h1 {
+    margin-top: 30px;
+    font-size:30px;
+}
+
+
+.buton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.agendaB{
+    color:#0b2e40;
+    border-radius: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+
+}
