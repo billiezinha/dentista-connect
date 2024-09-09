@@ -27,7 +27,7 @@ export default function Home() {
    
       {/* Renderiza os checkboxes */}
       <div className={styles.text}>
-      <h1><strong>Escolha um profissional</strong></h1>
+      <h1><strong>SELECIONE UM PROFISSIONAL</strong></h1>
       </div>
 
 
@@ -56,13 +56,13 @@ export default function Home() {
       </div>
       <div className={styles.separar}>
       <div className={styles.horarios}>
-      <h1 className="text-2xl font-bold mb-6">Selecione um Horário</h1>
+      <h1 className="text-2xl font-bold mb-6">SELECIONE UM HORÁRIO</h1>
         {/* Chame o componente de horários disponíveis */}
         <HorariosDisponiveis />
 
       </div>
       <div className={styles.calendar}>
-      <h1><strong>Escolha uma data</strong></h1>
+      <h1><strong>ESCOLHA UMA DATA</strong></h1>
 
       {/* Renderiza o componente CalendarDemo */}
       <CalendarDemo />

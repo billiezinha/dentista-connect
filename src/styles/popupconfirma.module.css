@@ -1,44 +1,43 @@
 .popupOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-  }
-  
-  .popup {
-    background-color: #3b5364;
-    padding: 2rem;
-    border-radius: 50%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 200px;
-  }
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
 
-  .checkIcon {
-    margin-bottom: 1rem;
-  }
-  
-  .checkIcon svg {
-    stroke: white;
-  }
-  
+.popup {
+  background-color: #3b5364;
+  padding: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
 
-  .popup p {
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    text-transform: uppercase;
-  }
-  
+
+.checkIcon {
+  margin-bottom: 1rem;
+}
+
+.checkIcon svg {
+  stroke: white;
+}
+
+
+.popup p {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}

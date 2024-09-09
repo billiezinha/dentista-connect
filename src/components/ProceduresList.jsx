@@ -12,9 +12,10 @@ const ProceduresList = ({ procedures }) => {
           </div>
           <div className={styles.rightSection}>
             <span className={styles.dateText}>
-              <span>Mês <br /></span>
-              <span>DIA <br /></span>
-              <span>hora <br /></span>
+              <span>Setembro <br /></span>
+              <h1 className={styles.dayText}> 06 <br /></h1> 
+
+              <span className={styles.timeText}>10:00 <br /></span>
             </span>
           </div>
         </div>

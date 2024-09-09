@@ -13,14 +13,14 @@
 .image {
   width: 120px;
   height: 120px;
-  object-fit: cover; /* Ajusta a imagem para cobrir o container sem distorcer */
+  object-fit: cover; 
   border-radius: 50%;
   border: 3px solid transparent;
   transition: border-color 0.3s ease;
 }
 
 .image.selected {
-  border-color: #0b2e40;
+  border-color: #365B6D;
 }
 
 .label {

@@ -2,7 +2,6 @@
 
 import styles from "@/styles/login.module.css";
 import { useState } from 'react';
-import Link from 'next/link';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -10,8 +9,19 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // Validação de email e senha
+    if (!email || !password) {
+      alert('Por favor, preencha ambos os campos de email e senha.');
+      return;
+    }
+
+    // Lógica de autenticação
     console.log('Email:', email);
     console.log('Password:', password);
+
+    // Redirecionar após o login bem-sucedido
+    window.location.href = '/home'; // Alternativa para router.push
   };
 
   return (
@@ -33,7 +43,7 @@ const Login = () => {
           />
         </div>
         <div className={styles.inputGroup}>
-          <label htmlFor="password">Password:</label>
+          <label htmlFor="password">Senha:</label>
           <input
             type="password"
             id="password"
@@ -44,16 +54,12 @@ const Login = () => {
         </div>
 
         <div className={styles.cadastrar}>
-          <h3>Já tem uma conta? <strong><Link href="/cadastro">Cadastre-se</Link></strong></h3>
-          {/* <Link href="/cadastro">Já tem uma conta?<strong>Se cadastre</strong></Link> */}
-
+          <h3>Já tem uma conta? <strong><a href="/cadastro">Cadastre-se</a></strong></h3>
         </div>
 
-        <Link href="/home">
-          <button type="submit" className={styles.loginButton}>
-           Login
-          </button>
-        </Link>
+        <button type="submit" className={styles.loginButton}>
+          Login
+        </button>
       </form>
     </div>
   );

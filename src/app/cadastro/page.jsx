@@ -6,6 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.logo}>
         <img src="/logo.png" alt="Logo" />
+       
     </div>
     <form>
         <div className={styles.formGroup}>

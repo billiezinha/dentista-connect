@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 
 const HorariosDisponiveis = () => {
+  // Lista de horários disponíveis
   const horarios = ['08:00', '09:00', '10:00', '11:00', '14:00', '15:00', '16:00'];
 
+  // Estado para armazenar o horário selecionado
   const [horarioSelecionado, setHorarioSelecionado] = useState(null);
 
+  // Função para lidar com a seleção do horário
   const selecionarHorario = (horario) => {
     setHorarioSelecionado(horario);
   };
@@ -25,9 +28,7 @@ const HorariosDisponiveis = () => {
           </button>
         ))}
       </div>
-      {horarioSelecionado && (
-        <p className="mt-4 text-lg">Horário selecionado: {horarioSelecionado}</p>
-      )}
+     
     </div>
   );
 };

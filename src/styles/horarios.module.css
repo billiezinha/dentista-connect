@@ -2,9 +2,10 @@
     margin-top: 10px;
     font-size: 30px;
     background-color: white;
+    color:#365B6D;
 }
 .text{
-    margin-left: 231px;
+    margin-left: 201px;
 }
 .separar{
 display: flex;
@@ -12,12 +13,12 @@ justify-content: space-around;
 flex-wrap: wrap;
 }
 .calendar {
-    color: #0b2e40;
+    color: #365B6D;
     max-width: 3500px;
 }
 
 .calendar h1 {
-    color: #0b2e40;
+    color: #365B6D;
     font-size: 30px;
 }
 
@@ -41,9 +42,9 @@ flex-wrap: wrap;
 }
 
 .agendaB{
-    color:#0b2e40;
-    border-radius: 50px;
-    background-color: gray;
+    color:#365B6D;
+    border-radius:4px;
+    background-color: rgb(232, 232, 232);
     display: flex;
     justify-content: center;
     align-items: center;
