@@ -1,39 +1,34 @@
-# Dentista Connect
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![logo  (1)](https://github.com/user-attachments/assets/15a2f5b5-f9d9-4201-b046-935bd7cab345)
 
-## Getting Started
+# :hammer: Funcionalidades do projeto!
 
-First, run the development server:
+- `Gerenciamento de Agendamentos`:  Usuários podem facilmente cancelar ou reagendar suas consultas diretamente na plataforma , além de ums interface clara e organizada que permite aos usuários ver todas as consultas já realizadas e as próximas consultas agendadas.
+- `Visualização de Horários Disponíveis`: Interface intuitiva que mostra todos os horários disponíveis para agendamentos, com opções de filtragem por tipo de procedimento e dentista.
+- `Notificações e Lembretes`: Notificações e Lembretes: Sistema envia notificações automáticas confirmando o agendamento, bem como lembretes próximos à data da consulta.
+- `Painel Administrativo para Dentistas`: Dentistas têm acesso a um painel onde podem ver todas as consultas agendadas, com detalhes sobre os pacientes e procedimentos.
+# 📑 Jornada do usuário 
+![aislan](https://github.com/user-attachments/assets/0ef35908-33a0-4b11-a7c4-33a6e06444b8)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# :construction: Status do Projeto
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# :computer: Tecnologias utilizadas
+- `Next.js` 
+- `Html` 
+- `Css`
+- `JavaScript`
+- `Figma`
+- `Supabase`
+- `Prisma`
+  
+ # :technologist: Desenvolvedores
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/146274561?v=4" width=115><br><sub>Emylle Beatriz</sub>](https://github.com/Emyllebsousa) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127801531?v=4" width=115><br><sub>Leticia Barros</sub>](https://github.com/leticiabarros23) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/137800495?v=4" width=115><br><sub>João Fernandes</sub>](https://github.com/billiezinha) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/137807145?v=4" width=115><br><sub>Talita Viana</sub>](https://github.com/Vianaat) |
+| :---: | :---: | :---: | :---: |
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+# 🖥️: Prototipo
+https://www.figma.com/design/7Q1WzesE0OE2xmDPGGGLXq/Untitled?node-id=0-1&t=meJZRUU73x6w4YEp-0
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# dentista-connect" 
